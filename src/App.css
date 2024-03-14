@@ -1,0 +1,103 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: "Georgia", serif; /* Use Georgia as a serif font */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #d4af37; /* Gold color */
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+  color: #fff; /* White text color */
+}
+
+/* Home styles */
+.home {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.home h1 {
+  color: #d4af37; /* Gold color */
+}
+
+/* Menu styles */
+.menu {
+  padding: 20px 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+/* Reservation form styles */
+.form-container {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="date"],
+.form-container input[type="time"],
+.form-container input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #d4af37; /* Gold color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #b8860b; /* Darker gold color */
+}
+
+/* Footer styles */
+footer {
+  background-color: #d4af37; /* Gold color */
+  text-align: center;
+  padding: 20px 0;
+  color: #fff; /* White text color */
+}
